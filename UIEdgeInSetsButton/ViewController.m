@@ -25,12 +25,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
+    //上
     [_topButton layoutButtonWithEdgeInsetsStyle:ButtonEdgeInsetsImageStyleTop imageTitlespace:10];
     
+    //左
     [_leftButton layoutButtonWithEdgeInsetsStyle:ButtonEdgeInsetsImageStyleLeft imageTitlespace:10];
-    
+    //右
     [_rightButton layoutButtonWithEdgeInsetsStyle:ButtonEdgeInsetsImageStyleRight imageTitlespace:10];
-    
+    //下
     [_bottomButton layoutButtonWithEdgeInsetsStyle:ButtonEdgeInsetsImageStyleBottom imageTitlespace:10];
     
     // Do any additional setup after loading the view, typically from a nib.
