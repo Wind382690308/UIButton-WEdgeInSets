@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81583ADC1D52CEEC00C720C1 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81583ADB1D52CEEC00C720C1 /* 1.png */; };
 		81D210941D51E80E0012B48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D210931D51E80E0012B48E /* main.m */; };
 		81D210971D51E80E0012B48E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D210961D51E80E0012B48E /* AppDelegate.m */; };
 		81D2109A1D51E80E0012B48E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D210991D51E80E0012B48E /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		81D210AD1D51E80E0012B48E /* UIEdgeInSetsButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D210AC1D51E80E0012B48E /* UIEdgeInSetsButtonTests.m */; };
 		81D210B81D51E80E0012B48E /* UIEdgeInSetsButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D210B71D51E80E0012B48E /* UIEdgeInSetsButtonUITests.m */; };
 		81D210C81D51E84A0012B48E /* UIButton+WEdgeInSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D210C71D51E84A0012B48E /* UIButton+WEdgeInSets.m */; };
-		81D210CC1D51E92E0012B48E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D210CB1D51E92E0012B48E /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81583ADB1D52CEEC00C720C1 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		81D2108F1D51E80E0012B48E /* UIEdgeInSetsButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIEdgeInSetsButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D210931D51E80E0012B48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81D210951D51E80E0012B48E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		81D210B91D51E80E0012B48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D210C61D51E84A0012B48E /* UIButton+WEdgeInSets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WEdgeInSets.h"; sourceTree = "<group>"; };
 		81D210C71D51E84A0012B48E /* UIButton+WEdgeInSets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WEdgeInSets.m"; sourceTree = "<group>"; };
-		81D210CB1D51E92E0012B48E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		81D210911D51E80E0012B48E /* UIEdgeInSetsButton */ = {
 			isa = PBXGroup;
 			children = (
-				81D210CB1D51E92E0012B48E /* 1.jpg */,
+				81583ADB1D52CEEC00C720C1 /* 1.png */,
 				81D210C51D51E84A0012B48E /* EdgeinsetsButton */,
 				81D210951D51E80E0012B48E /* AppDelegate.h */,
 				81D210961D51E80E0012B48E /* AppDelegate.m */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81D210A21D51E80E0012B48E /* LaunchScreen.storyboard in Resources */,
-				81D210CC1D51E92E0012B48E /* 1.jpg in Resources */,
+				81583ADC1D52CEEC00C720C1 /* 1.png in Resources */,
 				81D2109F1D51E80E0012B48E /* Assets.xcassets in Resources */,
 				81D2109D1D51E80E0012B48E /* Main.storyboard in Resources */,
 			);
@@ -514,6 +514,7 @@
 				81D210BE1D51E80E0012B48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81D210BF1D51E80E0012B48E /* Build configuration list for PBXNativeTarget "UIEdgeInSetsButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				81D210C11D51E80E0012B48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81D210C21D51E80E0012B48E /* Build configuration list for PBXNativeTarget "UIEdgeInSetsButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				81D210C41D51E80E0012B48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

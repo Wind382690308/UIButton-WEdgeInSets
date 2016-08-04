@@ -17,48 +17,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ5-LH-sXA">
-                                <rect key="frame" x="260" y="50" width="80" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ5-LH-sXA">
+                                <rect key="frame" x="260" y="50" width="122" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="5vp-Zh-gHf"/>
+                                    <constraint firstAttribute="width" constant="140" id="5vp-Zh-gHf"/>
                                     <constraint firstAttribute="height" constant="40" id="oav-QC-Zct"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="1.jpg"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="图片在上" image="1.png">
+                                    <color key="titleColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBr-zH-t4a">
-                                <rect key="frame" x="260" y="100" width="80" height="40"/>
+                                <rect key="frame" x="230" y="140" width="140" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="PQt-ym-pcg"/>
-                                    <constraint firstAttribute="width" constant="80" id="uyv-xJ-RfZ"/>
+                                    <constraint firstAttribute="width" constant="140" id="uyv-xJ-RfZ"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="1.jpg"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="图片在左" image="1.png">
+                                    <color key="titleColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5L-v2-LDx">
-                                <rect key="frame" x="260" y="150" width="80" height="40"/>
+                                <rect key="frame" x="230" y="230" width="140" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="dUa-HK-i5S"/>
+                                    <constraint firstAttribute="width" constant="140" id="dUa-HK-i5S"/>
                                     <constraint firstAttribute="height" constant="40" id="zUG-dI-IJO"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="1.jpg"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="图片在右" image="1.png">
+                                    <color key="titleColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtd-QA-w8N">
-                                <rect key="frame" x="260" y="210" width="80" height="40"/>
+                                <rect key="frame" x="230" y="320" width="140" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="0E3-Xq-org"/>
+                                    <constraint firstAttribute="width" constant="140" id="0E3-Xq-org"/>
                                     <constraint firstAttribute="height" constant="40" id="m3u-hK-24B"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="1.jpg"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="图片在下" image="1.png">
+                                    <color key="titleColor" red="0.035294117649999998" green="0.035294117649999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="a5L-v2-LDx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LNT-zT-pDA"/>
-                            <constraint firstItem="LBr-zH-t4a" firstAttribute="top" secondItem="cZ5-LH-sXA" secondAttribute="bottom" constant="10" id="PZp-Ie-YdA"/>
+                            <constraint firstItem="LBr-zH-t4a" firstAttribute="top" secondItem="cZ5-LH-sXA" secondAttribute="bottom" constant="50" id="PZp-Ie-YdA"/>
                             <constraint firstItem="cZ5-LH-sXA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PtD-7D-LzX"/>
                             <constraint firstItem="Xtd-QA-w8N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qet-Lt-dG7"/>
-                            <constraint firstItem="Xtd-QA-w8N" firstAttribute="top" secondItem="a5L-v2-LDx" secondAttribute="bottom" constant="20" id="T9H-Gm-PK4"/>
+                            <constraint firstItem="Xtd-QA-w8N" firstAttribute="top" secondItem="a5L-v2-LDx" secondAttribute="bottom" constant="50" id="T9H-Gm-PK4"/>
                             <constraint firstItem="cZ5-LH-sXA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Zwi-Zb-wkS"/>
-                            <constraint firstItem="a5L-v2-LDx" firstAttribute="top" secondItem="LBr-zH-t4a" secondAttribute="bottom" constant="10" id="fQr-TN-ulj"/>
+                            <constraint firstItem="a5L-v2-LDx" firstAttribute="top" secondItem="LBr-zH-t4a" secondAttribute="bottom" constant="50" id="fQr-TN-ulj"/>
                             <constraint firstItem="LBr-zH-t4a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jiC-gW-wQ9"/>
                         </constraints>
                     </view>
@@ -71,9 +83,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="257" y="339"/>
         </scene>
     </scenes>
     <resources>
-        <image name="1.jpg" width="650" height="487"/>
+        <image name="1.png" width="46" height="46"/>
     </resources>
 </document>
