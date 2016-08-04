@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ5-LH-sXA">
+                                <rect key="frame" x="260" y="50" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="5vp-Zh-gHf"/>
+                                    <constraint firstAttribute="height" constant="40" id="oav-QC-Zct"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="1.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBr-zH-t4a">
+                                <rect key="frame" x="260" y="100" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PQt-ym-pcg"/>
+                                    <constraint firstAttribute="width" constant="80" id="uyv-xJ-RfZ"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="1.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5L-v2-LDx">
+                                <rect key="frame" x="260" y="150" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="dUa-HK-i5S"/>
+                                    <constraint firstAttribute="height" constant="40" id="zUG-dI-IJO"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="1.jpg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xtd-QA-w8N">
+                                <rect key="frame" x="260" y="210" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="0E3-Xq-org"/>
+                                    <constraint firstAttribute="height" constant="40" id="m3u-hK-24B"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="1.jpg"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a5L-v2-LDx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LNT-zT-pDA"/>
+                            <constraint firstItem="LBr-zH-t4a" firstAttribute="top" secondItem="cZ5-LH-sXA" secondAttribute="bottom" constant="10" id="PZp-Ie-YdA"/>
+                            <constraint firstItem="cZ5-LH-sXA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PtD-7D-LzX"/>
+                            <constraint firstItem="Xtd-QA-w8N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qet-Lt-dG7"/>
+                            <constraint firstItem="Xtd-QA-w8N" firstAttribute="top" secondItem="a5L-v2-LDx" secondAttribute="bottom" constant="20" id="T9H-Gm-PK4"/>
+                            <constraint firstItem="cZ5-LH-sXA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Zwi-Zb-wkS"/>
+                            <constraint firstItem="a5L-v2-LDx" firstAttribute="top" secondItem="LBr-zH-t4a" secondAttribute="bottom" constant="10" id="fQr-TN-ulj"/>
+                            <constraint firstItem="LBr-zH-t4a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jiC-gW-wQ9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomButton" destination="Xtd-QA-w8N" id="zVp-ZQ-Whv"/>
+                        <outlet property="leftButton" destination="LBr-zH-t4a" id="yOE-2Y-nrM"/>
+                        <outlet property="rightButton" destination="a5L-v2-LDx" id="kbu-LT-YeV"/>
+                        <outlet property="topButton" destination="cZ5-LH-sXA" id="FJ9-Tm-FO4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.jpg" width="650" height="487"/>
+    </resources>
+</document>
